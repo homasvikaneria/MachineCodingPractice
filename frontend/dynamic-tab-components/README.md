@@ -1,18 +1,57 @@
-# React + Vite
+# Tabs Component – Machine Coding
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a simple **Tabs Component Application** built as part of **machine coding interview practice**.  
+It focuses on managing UI state and conditional rendering based on user interaction.
 
-Currently, two official plugins are available:
+This problem is commonly asked in frontend machine coding rounds to evaluate:
+- State management
+- Conditional rendering
+- UI interaction handling
+- Code clarity under time constraints
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
+- Multiple tabs (Home, Profile, Settings)
+- Switch content based on selected tab
+- Active tab highlighting
+- Clean and minimal user interface
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## Tech Stack
+- React
+- JavaScript
+- CSS / Tailwind CSS (if applicable)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Folder Structure
+```
+tabs/
+├── src/
+│ ├── App.jsx
+│ └── index.jsx
+├── package.json
+└── README.md
+```
+
+
+---
+
+## Setup & Run
+Follow these steps to run the project locally:
+
+```bash
+npm install
+npm start
+```
+
+## Learning Objectives
+
+Practice state management using React
+
+Implement tab-based UI logic
+
+Handle conditional rendering
