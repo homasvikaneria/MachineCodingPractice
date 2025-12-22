@@ -1,18 +1,61 @@
-# React + Vite
+# Pagination App – Machine Coding
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a simple **Pagination Application** built as part of **machine coding interview practice**.  
+It focuses on fetching data from an API and displaying paginated results with navigation controls.
 
-Currently, two official plugins are available:
+This problem is commonly asked in frontend machine coding rounds to evaluate:
+- API data handling
+- Pagination logic
+- State management
+- Component separation and clarity
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
+- Fetch user data from API
+- Display data in tabular format
+- Page-based navigation (Prev / Next / Numbers)
+- Highlight active page
+- Clean and minimal user interface
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## Tech Stack
+- React
+- JavaScript
+- Axios
+- CSS / Tailwind CSS (if applicable)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Folder Structure
+```
+pagination/
+├── src/
+│ ├── PaginationNumber.jsx
+│ ├── PaginationData.jsx
+│ ├── App.jsx
+│ └── index.js
+├── package.json
+└── README.md
+```
+
+---
+
+## Setup & Run
+Follow these steps to run the project locally:
+
+```bash
+npm install
+npm start
+```
+
+## Learning Objectives
+
+Practice pagination logic in React
+
+Handle API data efficiently
+
+Manage state across components
+
