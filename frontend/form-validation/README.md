@@ -1,18 +1,59 @@
-# React + Vite
+# Form Validation App – Machine Coding
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a simple **Form Validation Application** built as part of **machine coding interview practice**.  
+It focuses on handling form state, validating user input, and conditional rendering.
 
-Currently, two official plugins are available:
+This problem is commonly asked in frontend machine coding rounds to evaluate:
+- Form handling in React
+- Input validation logic
+- State management with hooks
+- Code clarity under time constraints
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
+- Email validation using regex
+- Password length validation
+- Real-time email validation
+- Form submission handling
+- Display submitted data
+- Clean and minimal user interface
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## Tech Stack
+- React
+- JavaScript
+- CSS / Tailwind CSS (if applicable)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Folder Structure
+```
+form-validation/
+├── src/
+│ ├── App.js(main code for form handling)
+│ └── index.js
+├── package.json
+└── README.md
+```
+
+
+---
+
+## Setup & Run
+Follow these steps to run the project locally:
+
+```bash
+npm install
+npm start
+```
+
+## Learning Objectives
+
+Practice form handling using React
+
+Implement input validation logic
+
+Manage state and side effects
